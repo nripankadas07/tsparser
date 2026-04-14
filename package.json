@@ -1,0 +1,35 @@
+{
+  "name": "tsparser",
+  "version": "1.0.0",
+  "description": "Tiny TypeScript tokenizer and recursive-descent parser for arithmetic expressions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "keywords": [
+    "parser",
+    "tokenizer",
+    "arithmetic",
+    "expression",
+    "ast",
+    "recursive-descent",
+    "evaluator",
+    "math"
+  ],
+  "author": "Nripanka Das <nripankadas@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nripankadas07/tsparser.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.2"
+  }
+}
