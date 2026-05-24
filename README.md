@@ -5,7 +5,7 @@ Tiny TypeScript tokenizer and recursive-descent parser for arithmetic expression
 ## Installation
 
 ```bash
-npm install tsparser
+npm install && npm run build
 ```
 
 Or install from source:
