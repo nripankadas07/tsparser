@@ -4,11 +4,14 @@
   "description": "Tiny TypeScript tokenizer and recursive-descent parser for arithmetic expressions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "test:coverage": "jest --coverage --verbose"
+    "test:coverage": "jest --coverage --verbose",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "parser",
